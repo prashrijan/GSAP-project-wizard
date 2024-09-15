@@ -1,6 +1,6 @@
-// Page 1 Animation
-function page1Animation() {
-    const tl = gsap.timeline();
+
+function page1Aniamtion(){
+   var tl = gsap.timeline()
     
     tl.from("nav h1, .nav-links a, .nav-links button", {
         y: -20,
