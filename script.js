@@ -1,5 +1,4 @@
-
-function page1Aniamtion(){
+function page1Animation() { // Fixed typo: 'Aniamtion' to 'Animation'
    var tl = gsap.timeline()
     
     tl.from("nav h1, .nav-links a, .nav-links button", {
@@ -82,7 +81,7 @@ function footerAnimation() {
 // Initialize animations
 function init() {
     gsap.registerPlugin(ScrollTrigger);
-    page1Animation();
+    page1Animation(); // This now correctly matches the function name
     section2Animation();
     footerAnimation();
 }
